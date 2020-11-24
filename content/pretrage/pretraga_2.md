@@ -1,12 +1,12 @@
 ---
 title: "Pretraga 1"
-type: portfolio
+type: pretrage
 date: 2018-07-12T16:54:54+06:00
 description : "This is meta description"
-caption: Product Mockup
-image: images/portfolio/item-2.jpg
+caption: Pretraga 1
+image: images/labos/sample_1.jpg
 category: ["pretrage"]
-submitDate: November 20, 2017
+submitDate: November 24, 2020
 ---
 ### Consectur in Bibendum
 

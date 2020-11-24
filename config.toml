@@ -65,10 +65,27 @@ title   = "TEST 3"
 
 # Homepage About Section
 [params.about]
-enable  = true
+enable  = false
 title   = "O nama"
 content = "O nama text"
 image   = "images/labos/vial.jpg"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = false
+title   = "Do vasih nalaza bez puno cekanja !"
+subtitle= "druge informacije o nalazima"
+
+# Pretrage Section On Homepage
+[params.pretrage]
+enable  = true
+title   = "Do vasih nalaza bez puno cekanja !"
+subtitle= "druge informacije o nalazima"
+
+# feature Section On Homepage
+[params.feature]
+enable  = false
+
 
 # Call to Action
 [params.cta]
