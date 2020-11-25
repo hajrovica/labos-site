@@ -7,12 +7,12 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "About"
+name    = "O nama"
 url     = "about"
 weight  = 2
 
 [[menu.main]]
-name    = "Service"
+name    = "Usluge"
 url     = "service"
 weight  = 3
 
@@ -27,7 +27,7 @@ weight  = 3
 # weight  = 5
 
 [[menu.main]]
-name    = "Contact"
+name    = "Kontakt"
 url     = "contact"
 weight  = 6
 
@@ -48,8 +48,8 @@ contactFormAction = "#" # contact form works with https://formspree.io
 [params.banner]
 enable  = true
 bgImage = "images/labos/vials.jpg"
-heading = "HI, THIS IS A TEST A FREAKIN"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+heading = "Medicinsko-biohemijski laboratorij \"LABOS\""
+description = ""
 # button
 btn     = false
 btnText = "Download More"
@@ -57,11 +57,16 @@ btnURL  = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "TEST 1"
+title   = "LABOS"
+
 [[params.banner.flipText]]
-title   = "TEST 2 "
+title   = "  "
+
 [[params.banner.flipText]]
-title   = "TEST 3"
+title   = "VAMA NA USLUZI "
+
+[[params.banner.flipText]]
+title   = " "
 
 # Homepage About Section
 [params.about]
@@ -90,9 +95,9 @@ enable  = false
 # Call to Action
 [params.cta]
 enable  = true
-title   = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-btnText = "Contact with me"
+title   = "VASI UTISCI ?"
+content = ""
+btnText = "Kontaktirajte nas !"
 btnURL  = "/contact"
 
 # Portfolio Section On Homepage
