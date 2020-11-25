@@ -1,12 +1,13 @@
 ---
-title: "Pretraga 1"
-type: pretrage
-date: 2018-07-12T16:54:54+06:00
-description : "This is meta description"
+title: Pretraga 1
+date: 2018-07-12T16:54:54.000+06:00
+description: This is meta description
 caption: Pretraga 1
 image: images/labos/sample_1.jpg
-category: ["pretrage"]
+category:
+- pretrage
 submitDate: November 24, 2020
+
 ---
 ### Consectur in Bibendum
 
@@ -19,6 +20,3 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Consequuntur magni dolores ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit.lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.
 
 Reprehenderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus.
-
-change
-
