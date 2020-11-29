@@ -1,6 +1,6 @@
 baseURL = "https://labos-test.herokuapp.com/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "LABOS.BA"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -13,7 +13,7 @@ weight  = 2
 
 [[menu.main]]
 name    = "Usluge"
-url     = "service"
+url     = "pretrage"
 weight  = 3
 
 #[[menu.main]]
@@ -28,7 +28,7 @@ weight  = 3
 
 [[menu.main]]
 name    = "Kontakt"
-url     = "contact"
+url     = "contact/contact"
 weight  = 6
 
 # Site Params
@@ -83,6 +83,7 @@ subtitle= "druge informacije o nalazima"
 
 # Pretrage Section On Homepage
 [params.pretrage]
+range = 3
 enable  = true
 title   = "Do vasih nalaza bez puno cekanja !"
 subtitle= "druge informacije o nalazima"
