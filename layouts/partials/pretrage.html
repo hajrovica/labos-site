@@ -1,4 +1,9 @@
 {{ if .Site.Params.pretrage.enable }}
+
+{{ range first 2 ($element:= where .Site.RegularPages "Type" "pretrage") }}
+---- 
+{{end}}
+
 {{ "<!-- pretrage Section Start -->" | safeHTML }}
 <section id="works" class="works">
 	<div class="container">
@@ -7,9 +12,10 @@
 			{{ with .Site.Params.pretrage.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end }}
 		</div>
 		<div class="row">
-			{{ range $index, $element:= where .Site.RegularPages "Type" "pretrage" }}
+		{{ range first 3 ($element:= where .Site.RegularPages "Type" "pretrage") }}		
+
 			<div class="col-md-4 col-sm-6">
-				{{ $delay := mul $index 300 }}
+				{{ $delay := 300 }}
 				<figure class="wow fadeInLeft animated pretrage-item" data-wow-duration="500ms"
 					data-wow-delay="{{ $delay }}ms">
 					<div class="img-wrapper">
